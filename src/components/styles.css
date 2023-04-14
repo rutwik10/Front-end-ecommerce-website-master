@@ -1,0 +1,136 @@
+.home{
+    display: flex;
+}
+
+.productcontainer{
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.products{
+    width: 25%;
+    margin: 10px;
+}
+
+.cartItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+    margin-bottom: 20px;
+}
+
+.cartItemImage{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.cartItemDetail{
+    display: flex;
+    flex: 1;
+    padding: 0 20px;
+    flex-direction: column ;
+}
+
+.buttonItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quantity {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .quantity button {
+    border: none;
+    background: none;
+    color: #007bff;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 0 5px;
+  }
+  
+  .quantity span {
+    margin: 0 10px;
+    font-size: 1.2rem;
+  }
+  
+  .centered-text {
+    display: block;
+    text-align: center;
+  }
+
+  .contact{
+    text-align: center;
+    padding: 30px;
+    border: black;
+    padding-left: 18rem;
+    padding-right: 18rem;
+  }
+
+  .contact label{
+    padding: 10px;
+    color: blue;
+  }
+
+  .contact input{
+    border-radius: 10px;
+  }
+
+  .contact button{
+    background-color: black;
+    color: yellow;
+    border-radius: 20px;
+  }
+
+  .formm{
+    background-color: green;
+    border-radius: 10px;
+    padding: 30px;
+  }
+
+  .login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+  }
+  
+  .login h1 {
+    margin-bottom: 1rem;
+  }
+  
+  .loginform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: yellow;
+    border-radius: 20px;
+    color: blue;
+  }
+  
+  .loginform label{
+    padding: 10px;
+  }
+
+  .loginform input{
+    padding: 1px;
+    border-radius: 10px;
+    size: 10px;
+  }
+
+  .loginform button{
+    margin: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: yellow;
+  }
